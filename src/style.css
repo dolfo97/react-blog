@@ -1,0 +1,99 @@
+*{
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+body{
+    border-left: solid lightgray;
+    border-width: 5px;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+header, main, footer{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1{
+    color: tomato;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header > h2{
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#header-list > li > a{
+    color: rgb(133, 133, 133);
+    border-bottom: solid lightgray;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#footer-list > li > a{
+    color: tomato;
+}
+
+article{
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: solid lightgrey;
+}
+
+article > a {
+    position: relative;
+    float: right;
+    color: tomato;
+    font-weight: 800;
+}
+
+article > h2{
+    font-size: 40px;
+    margin: 5px 0 5px 0;
+}
+
+article > p {
+    font-size: large;
+    color: rgb(128, 128, 128);
+}
+
+article > p::first-letter{
+    font-size: 5rem;
+    color: lightgray;
+    padding: 0px 3px 0px 0px;
+    margin-right: 8px;
+    float: left;
+}
+
+footer > p{
+    color: rgb(128, 128, 128);
+    font-size: 1.2rem;
+}
+
+time{
+    font-size: 1.5rem;
+    color: darkgrey;
+}
